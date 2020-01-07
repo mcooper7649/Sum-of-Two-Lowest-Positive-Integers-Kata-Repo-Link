@@ -1,0 +1,12 @@
+let myArr = [4,6,1,4,7,2];
+
+function sumTwoSmallestNumbers(myArr){  
+  //Code here
+  myArr.sort(function(a, b){return a - b});
+  console.log(myArr[0] + myArr[1]);
+  return(myArr[0] + myArr[1]);
+}
+
+
+
+sumTwoSmallestNumbers(myArr);
